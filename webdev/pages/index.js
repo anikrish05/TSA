@@ -11,7 +11,7 @@ export default class Home extends React.Component {
     <>
     <div style={{'backgroundColor':'#002447'}}>
     <img src={'../public/info.svg'} />
-    <p style={{'color':'#79C5E7'}} class="text-left">Center aligned text on all viewport sizes.</p>
+    <p style={{'color':'#79C5E7'}} class="text-left">COVID- 19- What You need to know to stay safe</p>
 
     </div>
         <Nav />
