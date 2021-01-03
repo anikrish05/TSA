@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import React from 'react'
 import Nav from '../components/navbar'
-export default class Home extends React.Component {
+export default class contact extends React.Component {
     constructor(props){
       super(props)
       this.state={}
@@ -10,10 +10,7 @@ export default class Home extends React.Component {
   return (
     <>
         <Nav />
-    <h1>TSA</h1>
-    <footer>
-  <p>TSA</p>
-</footer>
+    <h1>contact</h1>
 
     </>
   )
