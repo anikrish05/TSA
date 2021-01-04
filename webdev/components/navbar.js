@@ -19,7 +19,7 @@ export default function nav(){
     <p style={{'color':'#79C5E7'}} class="text-left">COVID- 19- What You need to know to stay safe</p>
     </div>
 <nav style={{'backgroundColor':'#79C5E7'}} class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" href="/">Logo</a>
+  <img src={"logo.png"} onClick={()=>{if(process.browser){window.location.href='/'}}} class="navbar-brand" />
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -40,8 +40,8 @@ export default function nav(){
       </li>
       
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+    <form action='/search' class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" name='state' type="search" placeholder="Search your state" aria-label="Search" />
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
   </div>
