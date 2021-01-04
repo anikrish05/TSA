@@ -32,9 +32,6 @@ export default function nav(){
       <li class="nav-item active">
         <a class="nav-link" href="/product">Product <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="/news">News/Updates <span class="sr-only">(current)</span></a>
-      </li>
        <li class="nav-item active">
         <a class="nav-link" href="/contact">Contact Us <span class="sr-only">(current)</span></a>
       </li>
