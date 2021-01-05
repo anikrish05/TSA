@@ -14,6 +14,7 @@ export default class product extends React.Component {
       }
     }
 componentDidMount(){
+  console.log('hi')
 const params = new URLSearchParams(window.location.search)
 this.setState({state:params.get('state')})
   axios.get('https://api.covidtracking.com/v1/states/current.json').then((data)=>{
@@ -23,13 +24,13 @@ this.setState({state:params.get('state')})
       }
     }
   }).catch((error)=>{
-    console.log(error)
+    console.log('bro')
+ console.log(error)
 
   });
 
 }
   render(){
-console.log(this.state.stateData)
   return (
     <>
         <Nav />

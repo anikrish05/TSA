@@ -1,4 +1,12 @@
 export default function nav(){
+	const search=()=>{
+		if(document.getElementById('search').style.display=='none'){
+		document.getElementById('search').style.display='block'
+	}
+	else{
+		document.getElementById('search').style.display='none'
+	}
+	}
   return(
   <>
   <head>
@@ -40,7 +48,8 @@ export default function nav(){
       </li>
       
     </ul>
-    <form action='/search' class="form-inline my-2 my-lg-0">
+    <img onClick={search} src={'search.png'} />
+    <form style={{'display':'none'}} id='search' action='/search' class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" name='state' type="search" placeholder="Search your state" aria-label="Search" />
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
