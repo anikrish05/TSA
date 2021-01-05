@@ -51,7 +51,7 @@ export default class Home extends React.Component {
       </div>
 
 
-      <div style={{'height':'500px'}}>
+      <div style={{'height':'400px'}}>
       <VictoryChart theme={VictoryTheme.material}>
   <VictoryLine
     style={{
@@ -89,7 +89,12 @@ export default class Home extends React.Component {
 <h4 style={{'color':"orange"}}>Number of hospitalized</h4>
 
 </div>
+<div>
+<br></br>
+<br></br>
+<img style={{'float':'right','marginTop':'10%','width':'30%','marginRight':'3%'}} src={'medicine.png'} />
 
+</div>
 
 
 
@@ -97,9 +102,6 @@ export default class Home extends React.Component {
 
  </div>
 </body>
- <footer style={{'backgroundColor':'#C1C8E4'}}>
- <h1>Footer</h1>
-</footer>
  <style JSX>{`
   #page-container {
   position: relative;
