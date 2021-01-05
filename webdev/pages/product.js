@@ -10,9 +10,9 @@ export default class product extends React.Component {
   return (
     <>
         <Nav />
-        {/*Prassana start code here*/}
+        {/*Madhav start code here*/}
     <h1>Product</h1>
-    {/*Prassana stop code here*/}
+    {/*Madhav stop code here*/}
 
 
     {/*inside style u can add css or add inline css by for ex: <h1 style={{'color':'red'}}>hi</h1>*/}
