@@ -11,7 +11,8 @@ export default class product extends React.Component {
     <>
         <Nav />
         {/*Madhav start code here*/}
-    <h1>Product</h1>
+<img style={{'width':'50%','height':'400px'}} src={'image3.png'} />
+<img style={{'width':'30%','height':'400px', 'float':'right'}} src={'image2.png'} />
     {/*Madhav stop code here*/}
 
 
