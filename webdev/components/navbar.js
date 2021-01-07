@@ -26,8 +26,8 @@ export default function nav(){
 
     <p style={{'color':'#79C5E7'}} class="text-left">COVID- 19- What You need to know to stay safe</p>
     </div>
-<nav style={{'backgroundColor':'#79C5E7'}} class="navbar navbar-expand-lg navbar-light">
-  <img src={"logo.png"} onClick={()=>{if(process.browser){window.location.href='/'}}} class="navbar-brand" />
+<nav style={{'backgroundColor':'#79C5E7','minHeight':'50px'}} class="navbar navbar-expand-lg navbar-light">
+  <img src={"logo.png"} style={{}} onClick={()=>{if(process.browser){window.location.href='/'}}} class="navbar-brand" />
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
