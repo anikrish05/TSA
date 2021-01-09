@@ -30,6 +30,23 @@
     <p>Here is a buncsh of textfkdsbcdshbcjhdsbfjhbdjhbjhdsbhdbvjhdfblfjhbd['ihfherdbfc</p>
   </div>
 </div>
+<div style='background-color: #221a59' class='row'>
+  <div class='column'>
+  <img style='width:80%' src='imgs/doctor.png' />
+</div>
+<div class='column'>
+  <p style='float:right;margin-top:10%;color:white'>Our product helps our customers to talk to doctors online via video call and calling platforms, allowing the patients and the doctors to talk to each other without worrying about not being able to meet up due to social distancing. available Doctors, including their bio of whom they work for, their experiences, etc. These doctors either work in existing hospitals or work as privately employed health officials, so the customer can choose based on their preferences. There will be a filter section at the top where the customer can find a doctor that can help in their area.</p>
+</div>
+</div>
+
+<div class='row'>
+  <div class='column'>
+  <p style='float:right;margin-top:10%;padding-left: 10%'>In order to schedule an appointment, customers can use the calendar function where they can select the day they want the appointment, and next, they can, virtually, meet. It’s as simple as that! Customers can also text doctors through our messaging function in the application where they can message directly to their doctors and get fast responses. If the customer wants to reschedule with the same doctor, it is easy to find by going to the reschedule option which gives an option to reschedule with any previous doctors the customer had. Once the customer selects to reschedule, they just have to select a date for an appointment in the calendar, and the customer is ready.</p>
+</div>
+  <div class='column'>
+  <img style='width:80%' src='imgs/phone.png' />
+</div>
+</div>
 
 
 
@@ -56,6 +73,25 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
 }
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.js"></script>
