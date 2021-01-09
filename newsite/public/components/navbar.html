@@ -19,11 +19,14 @@
       <li class="nav-item">
         <a class="nav-link" href="/aboutus">About Us</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/events">Events</a>
+      </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+    <div class="form-inline my-2 my-lg-0">
+      <input id='search' class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button onclick="search()" class="btn btn-outline-success my-2 my-sm-0">Search</button>
+    </div>
   </div>
 </nav>
 </header>
@@ -35,4 +38,7 @@
       .parent()
       .addClass("active");
   });
+  function search(){
+    window.location.href='/search?id='+document.getElementById('search').value
+  }
 </script>
