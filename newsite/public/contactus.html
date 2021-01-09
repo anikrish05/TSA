@@ -8,18 +8,70 @@
       href="https://bootswatch.com/4/cerulean/bootstrap.min.css"
     />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/contactus.css" />
+    <link rel="stylesheet" href="css/contactus.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+  crossorigin=""></script>
+
   </head>
 
   <body>
     <div id="navBar" class="feed"></div>
-    <h1>Contact Us</h1>
-    <div id='footer'></div>
-    <script src="anime.min.js"></script>
+<div class="bg">
+  <h1 style='color:white;text-align: center;padding-top: 20%'>Medical stuff</h1>
+</div>
+</br>
+ </br>
+<div style='height: 500px;background-color: #383838 '>
+  <div style="width:50%;height:400px" id="anojs-snow">
+    <script src="https://cdn.anojs.com/files/anojs-snow.js?ANOJS_COLOR_1=%23312897&ANOJS_COLOR_2=%2318c71e&ANOJS_COLOR_3=%23857992&ANOJS_COLOR_4=%23f189a9"></script>
+  </div>
+    <div style='padding-left: 60%;margin-top: -25%;color: white'>
+    <h1 style='text-decoration: underline'>Our Information</h1>
+    <p>Here is all of our information</p>
+  </div>
+</div>
+</div>
+</br>
+ <div style='height:800px;width:90%;margin-left: 2%' id="mapid"></div>
+
+
+
+<div id='footer'></div>
+
+<body>
+
+
+
+  <style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("imgs/bgimg2.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.js"></script>
+
+
     <script src="/js/contactus.js"></script>
   </body>
 </html>
