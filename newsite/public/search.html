@@ -8,18 +8,59 @@
       href="https://bootswatch.com/4/cerulean/bootstrap.min.css"
     />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/search.css" />
+    <link rel="stylesheet" href="css/search.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+
   </head>
 
   <body>
     <div id="navBar" class="feed"></div>
-    <h1>Search</h1>
-    <div id='footer'></div>
-    <script src="anime.min.js"></script>
+<div class="bg">
+  <h1 style='color:white;text-align: center;padding-top: 20%'>Medical stuff</h1>
+</div>
+<div style='height: 500px'>
+  <div style="width:50%;height:400px" id="anojs-flame-lines">
+    <script src="https://cdn.anojs.com/files/anojs-flame-lines.js?ANOJS_COLOR_1=%23cf824f&ANOJS_COLOR_2=%2363f1aa&ANOJS_COLOR_3=%23f32607"></script>
+  </div>
+  <div style='padding-left: 60%;margin-top: -25%;background-color: white'>
+    <h1 style='text-decoration: underline'>Here is the info for your state</h1>
+    <div id='data'></div>
+  </div>
+</div>
+
+
+
+<div id='footer'></div>
+
+<body>
+
+
+
+  <style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("imgs/bgimg2.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.js"></script>
+
+
     <script src="/js/search.js"></script>
   </body>
 </html>
