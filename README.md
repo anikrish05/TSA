@@ -6,3 +6,5 @@ run the command npm install
 npm i nodemon. If that fails delete the file newsite/node_modules/.bin/nodemon and then re-run the command npm i nodemon.
 run the command npm build
 then run the command npm run dev
+
+If anything else fails please contact me at kris.anirudh@gmail.com
